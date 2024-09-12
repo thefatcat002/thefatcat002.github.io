@@ -1,0 +1,56 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Section */
+.about {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.project:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
